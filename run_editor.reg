@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\phpstorm]
+@="URL:PhpStorm Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\phpstorm\shell\open\command]
+@="cmd /k node \"C:\\Program Files\\PhpStormProtocol\\run_editor.js\" \"%1\""
